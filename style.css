@@ -3,7 +3,7 @@ body{
   }
   .site-header{
    
-    background-image: url(mainimg.jpg);
+    background-image: url(images/mainimg.jpg);
     background-position: center;
     height: 566px;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body{
     }
     .hero-text {
       /* color: white; */
-      background-image: url(mainimg.jpg);
+      background-image: url(images/mainimg.jpg);
       /* height:30px; */
       max-width: 150px;
       position: fixed;
@@ -52,7 +52,7 @@ body{
     }
     .menu-item{
       float: left;
-      background-image: url(mainimg.jpg);
+      background-image: url(images/mainimg.jpg);
       /* height:30px; */
       max-width: 200px;
       height: 65px;
@@ -89,7 +89,7 @@ body{
         position: relative;
         text-align: center;
         color: white;
-        background-image: url(3.png);
+        background-image: url(images/3.png);
         margin-left: 110px;
         margin-top: 30px;
         width:1088px ;
@@ -191,7 +191,7 @@ body{
     background-repeat: no-repeat;
 }
 .section-img{
-    background-image: url(backgroundsection.png);
+    background-image: url(images/backgroundsection.png);
 }
 .backimg {
     float: left;
