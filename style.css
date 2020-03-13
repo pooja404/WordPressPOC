@@ -49,6 +49,12 @@ body{
     }
     .menu{
       float: right;
+      display: flex;
+    margin-top: 10px;
+    padding-left: 117px;
+    }
+    .menu div img{
+      height:57px;
     }
     .menu-item{
       float: left;
