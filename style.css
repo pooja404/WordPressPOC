@@ -67,6 +67,10 @@ body{
       position: absolute;
       margin-top: 200px;
     }
+    .menu-left div{
+      margin-bottom: 10px;
+      margin-left: -14px;
+    }
     .menu-left-item{
       max-width: 270px;
       background: #f7f7f7;
