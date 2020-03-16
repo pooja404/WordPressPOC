@@ -6,6 +6,8 @@
   <title>Driscolls Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css"/>
 </head>
@@ -25,7 +27,43 @@
         </div>
       </header> -->
       <div class="">
+   
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/mainimg.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="images/slider2.jpg" alt="Chicago" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="images/slider3.jpg" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
         <div class="container-fluid site-header" >
+        
+         
           <div class="menu-left">
             <div>
               <img src="images/leftmenu1.png" alt="Receta de la semana">
@@ -68,9 +106,9 @@
       </div>
      
       </div>
-      <div>
+      <!-- <div>
         <img src="images/headerbottom.png" width=100%>
-      </div>
+      </div> -->
     </div>
       <div class="container-fluid section-img">
         <div class="container ">
@@ -93,23 +131,25 @@
               </div>
                 
               </div>
-                 <div style="display: inline-block;margin-top: 78px;">
+                 <div style="display: inline-block;margin-top: 98px;">
                 <div class="backimg" > 
                     <img src="images/4.png" alt="Receta de la semana" class="back-img"> </div>
                 <div class="frontimg">
-                    <img src="images/framruesa.png" class="front-img" alt="Receta de la semana" ></div>
+                  <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  </iframe>
+                    <!-- <img src="images/framruesa.png" class="front-img" alt="Receta de la semana" ></div> -->
               </div>       
               
             </div>
         </div>
-        <div class="container midsection">
-          <!-- <img src="3.png" alt="Calendario" width="1088" height="400"> -->
+         <div class="container midsection">
+          
           <div class="centered">
             <p>CALENDARIO</p>
             <p>NUESTRO CULTIVO DE BAYAS</p>
             <p>REGIONES</p>
           </div>
-        </div>
+        </div> 
         <div class="sectionenddiv">
             <p style="color: rgb(235, 71, 49);">#DulzuraNatural</p>
             <p style="color: rgb(74,119,60);">Compartenos tu experiencia berry-ciosa</p>
