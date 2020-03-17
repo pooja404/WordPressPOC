@@ -48,6 +48,26 @@ body{
       
       margin:10px 0px 10px 0px;
     }
+
+    .sp-backgroundimg{
+      background-image: url(images/strawberry.png);
+    }
+   
+ .image-slide{
+      margin-left: 65px;;
+    }
+.image-slider span{
+  margin-right: 50px;
+  float: left;
+}
+    
+.fresatext{
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(235, 71, 49);
+    font-size: 227px;
+    transform: rotate(-22deg);}
+
     .menu{
       float: right;
       display: flex;
@@ -204,6 +224,20 @@ body{
 .section-img{
     background-image: url(images/backgroundsection.png);
    
+}
+.tips-font{
+  font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 85px;
+    color: rgb(74,119,60);
+    margin-top: 45px;
+}
+.pasos{
+  color: rgb(74,119,60);
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
 }
 .backimg {
     float: left;
