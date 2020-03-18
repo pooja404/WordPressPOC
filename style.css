@@ -53,14 +53,26 @@ body{
       background-image: url(images/strawberry.png);
     }
    
- .image-slide{
+ .image-slider{
       margin-left: 65px;;
     }
-.image-slider span{
-  margin-right: 50px;
-  float: left;
-}
+
+.outer-div {
+  width: 100%; 
+  text-align: center;
+  
+  }
+  .inner-div {
+  display: inline-block; 
+  margin: 0 auto;
+  border: 10px solid white;
+    border-radius: 10px;
+  }
     
+.image-slider div{
+  /* float: left; */
+  margin-right: 50px;
+}
 .fresatext{
     font-family: cursive;
     font-weight: bold;
@@ -225,6 +237,25 @@ body{
     background-image: url(images/backgroundsection.png);
    
 }
+.strawberryimg{
+  float: right;
+  border-radius: 45% 35% 35% 45%;
+  padding: 32px;
+  float: right;
+  border: 10px solid rgb(254, 213, 0);
+  background-color: rgb(254, 213, 0);
+  margin-top: -324px;
+}
+.video-style{
+  float: left;
+    padding-left: 184px;
+    padding-top: 79px;
+    color: rgb(235, 71, 49);
+    font-weight: bold;
+    font-style: italic;
+    font-size: -webkit-xxx-large;
+}
+
 .tips-font{
   font-family: cursive;
     text-align: center;
@@ -271,8 +302,11 @@ body{
     height: 244px;
     width: 244px;
 
-}
 
+}
+.div-pos{
+  float: left;
+}
 .side-margin{
     margin-left: 70px;;
 }
