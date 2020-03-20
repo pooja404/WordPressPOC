@@ -53,9 +53,7 @@ body{
     background-image: url(images/strawberry.png);
   }
  
-.image-slider{
-    /* margin-left: 65px;; */
-  }
+
 
 .outer-div {
 width: 100%; 
@@ -77,7 +75,7 @@ border: 10px solid white;
   font-family: cursive;
   font-weight: bold;
   color: rgb(235, 71, 49);
-  font-size: 227px;
+  font-size: 2.5rem;
   transform: rotate(-22deg);}
 
   .menu{
@@ -135,7 +133,7 @@ border: 10px solid white;
       background-image: url(images/3.png);
       margin-left: auto;
       margin-top: 753px;
-      width:1088px ;
+      width: -webkit-fill-available;
       height:400px;
       border: 10px solid white;
       border-radius: 25px;
@@ -300,7 +298,7 @@ color: rgb(74,119,60);
 }
 .img-size{
   height: 244px;
-  width: 100%;
+  /* width: 100%; */
 
 
 }
@@ -326,6 +324,7 @@ border: 5px double #EEEFEF;
 }
 .nopadding {
 padding: 0 !important;
+margin: 0 !important;
 }
 tr td {
 border: none;
