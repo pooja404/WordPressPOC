@@ -60,11 +60,22 @@ width: 100%;
 text-align: center;
 
 }
+
+
+.clearfix {
+  clear: both;
+}
 .inner-div {
 display: inline-block; 
 margin: 0 auto;
 border: 10px solid white;
   border-radius: 10px;
+}
+.strawberryImg{
+  background-image: url('images/strawberry.jpg');
+  margin: 0px;
+  width:-webkit-fill-available;
+  background-size: 100% 100%;
 }
   
 .image-slider div{
@@ -337,4 +348,48 @@ padding: 0 10px;
 }
 table {
 background: #fff;
+}
+.fresadiv{
+  margin-top: 641px; margin-left: -447px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .fresadiv{
+    margin-top: 876px;
+  margin-left: 0px;}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  .text-img{
+    margin-top: 69px;
+  }
+}
+
+.videodivone
+{
+  display: inline-block;margin-top: 98px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+.videodivone{
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 50px;
+
+}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+.centerdiv 
+{
+  padding-top: 600px;
+}
+
 }
