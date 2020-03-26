@@ -1,3 +1,6 @@
+
+
+
 body{
   margin: 0px;
 }
@@ -477,3 +480,92 @@ and (max-device-width : 667px)
      padding-left : 104px;
     padding-top: 0px;}
       }
+
+      @media only screen 
+      and (min-device-width : 375px) 
+      and (max-device-width : 667px)
+       {
+      .fresadiv{
+        margin: 0px;
+      }
+    }
+    @media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px)
+     {
+.strawberryImg{
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 304px;
+}}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+ {
+.leftmenuimg{
+  height: 42px;
+  width: 181px;
+}
+ }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+ {
+.leftmenuimg{
+  height: 33px;
+  width: 146px;
+}
+ }
+ .straw-text{
+ margin-top: 455px;}
+ @media only screen 
+ and (min-device-width : 375px) 
+ and (max-device-width : 667px)
+  {
+    .straw-text{
+      margin-top: 134px;
+    }
+  }
+ 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+ {
+   .menu-left{
+     margin-top: 52px;
+   }
+ }
+
+ .navlia{
+  padding: 0 !important; 
+
+}
+
+.navimg{
+  height: 52px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+.navimg{
+  height: 47px;}}
+
+
+.tipsimg{
+  margin: 0px;width: -webkit-fill-available;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;}
+
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px)  { 
+  .tips-font{
+    margin-top: 134px;}}
+  
