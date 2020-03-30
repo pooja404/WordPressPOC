@@ -10,3 +10,26 @@
 [16-Mar-2020 10:12:41 UTC] PHP Parse error:  syntax error, unexpected '.0' (T_DNUMBER), expecting ')' in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\functions.php on line 4
 [16-Mar-2020 10:12:42 UTC] PHP Parse error:  syntax error, unexpected '.0' (T_DNUMBER), expecting ')' in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\functions.php on line 4
 [16-Mar-2020 10:12:42 UTC] PHP Parse error:  syntax error, unexpected '.0' (T_DNUMBER), expecting ')' in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\functions.php on line 4
+[19-Mar-2020 09:04:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\header.php on line 33
+[19-Mar-2020 09:05:01 UTC] PHP Warning:  Use of undefined constant site - assumed 'site' (this will throw an Error in a future version of PHP) in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\header.php on line 33
+[19-Mar-2020 09:05:01 UTC] PHP Stack trace:
+[19-Mar-2020 09:05:01 UTC] PHP   1. {main}() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\index.php:0
+[19-Mar-2020 09:05:01 UTC] PHP   2. require() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\index.php:17
+[19-Mar-2020 09:05:01 UTC] PHP   3. require_once() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-blog-header.php:19
+[19-Mar-2020 09:05:01 UTC] PHP   4. include() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\template-loader.php:98
+[19-Mar-2020 09:05:01 UTC] PHP   5. get_header() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\index.php:1
+[19-Mar-2020 09:05:01 UTC] PHP   6. locate_template() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\general-template.php:41
+[19-Mar-2020 09:05:01 UTC] PHP   7. load_template() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\template.php:671
+[19-Mar-2020 09:05:01 UTC] PHP   8. require_once() C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\template.php:722
+[19-Mar-2020 09:05:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function url() in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\header.php:33
+Stack trace:
+#0 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\template.php(671): load_template('C:\\Users\\PoojaD...', true)
+#2 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\index.php(1): get_header()
+#4 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\PoojaD...')
+#5 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-blog-header.php(19): require_once('C:\\Users\\PoojaD...')
+#6 C:\Users\PoojaDahima\Local Sites\driscolls\app\public\index.php(17): require('C:\\Users\\PoojaD...')
+#7 {main}
+  thrown in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\header.php on line 33
+[20-Mar-2020 16:36:51 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\PoojaDahima\Local Sites\driscolls\app\public\wp-content\themes\Driscoll-theme-page\page.php on line 66

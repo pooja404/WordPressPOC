@@ -17,3 +17,8 @@ wp_enqueue_script('jquery');
 }
 
 add_action('wp_enqueue_scripts', 'driscoll_files');
+
+function driscoll_features(){
+	add_theme_support('title-tag');
+}
+add_action('after_setup_theme','driscoll_features');
